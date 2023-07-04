@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Subha1Application {
 
 	public static void main(String[] args) {
+		// start boot
 		SpringApplication.run(Subha1Application.class, args);
 	}
 
