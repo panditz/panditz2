@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Build and Deploy with docker') { 
             steps {
-                bat 'docker build -t sp040739/subha1-0.0.1-SNAPSHOT' 
+                bat 'docker build -t sp040739/subha1-0.0.1-SNAPSHOT .' 
             }
         }
     }
