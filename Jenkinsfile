@@ -11,9 +11,9 @@ pipeline {
                 bat 'echo "Testing"' 
             }
         }
-        stage('Deploy') { 
+        stage('Build and Deploy with docker') { 
             steps {
-                bat 'echo "Deploying"' 
+                bat 'echo "build and Deploying with docker"' 
             }
         }
     }
